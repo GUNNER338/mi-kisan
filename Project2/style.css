@@ -1,0 +1,455 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+body {
+  background-color: #80529d;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #80529d;
+  height: 100px;
+}
+
+.logo h1 {
+  color: white;
+  display: block;
+  position: relative;
+  right: 18vw;
+  font-weight: 500;
+}
+
+.link {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link li a {
+  text-decoration: none;
+  color: white;
+}
+
+.link li {
+  padding: 3vw;
+  list-style-type: none;
+  position: relative;
+  left: 15vw;
+  color: white;
+  font-size: 1.1vw;
+}
+
+.sign-btn {
+  display: flex;
+  position: relative;
+  left: 19vw;
+}
+
+.sign-btn .btn1{
+  text-decoration: none;
+}
+
+#button {
+  padding: 8px 20px 8px 20px;
+  border-radius: 44px;
+}
+
+.page1 {
+  background-color: #80529d;
+}
+
+.img1 {
+  height: 35vh;
+  width: 28vw;
+  margin-left: 5vw;
+  margin-top: 6vh;
+}
+
+.image2 {
+  height: 90vh;
+  width: 53vw;
+  background-image: url(image2.jpg);
+  background-size: cover;
+  position: relative;
+  bottom: 31vh;
+  left: 40vw;
+  z-index: 60px;
+}
+
+.heading {
+  position: relative;
+  bottom: 90vh;
+  left: 6vw;
+}
+.p1 {
+  font-size: 90px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.heading .p2 {
+  position: relative;
+  bottom: 5vh;
+}
+
+.p2 {
+  font-size: 85px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.searchmenu {
+  position: relative;
+  bottom: 90vh;
+}
+
+
+
+.nav-search {
+  display: flex;
+  position: relative;
+  bottom: 95vh;
+  left: 7vw;
+}
+
+.nav-search .search-input {
+  height: 10vh;
+  width: 600px;
+  border-radius: 40px;
+  z-index: 40px;
+}
+
+.search-icon {
+  background-color: #ff7138;
+  width: 55px;
+  height: 55px;
+  position: relative;
+  right: 4.5vw;
+  top: 1.3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.page2 {
+  background-color: #61317f;
+  height: 60vh;
+  width: 90vw;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 5vw;
+  bottom: 66vh;
+}
+
+.para .ackn {
+  color: white;
+  font-size: 2.2vw;
+  font-weight: 300;
+  padding-top: 14vh;
+  padding-left: 6vw;
+  padding-right: 8vw;
+  margin-bottom: 5vh;
+}
+
+.para span {
+  color: white;
+  font-size: 1.1vw;
+  font-weight: 300;
+  padding-top: 14vh;
+  padding-left: 6vw;
+  padding-right: 8vw;
+}
+
+.para .name {
+  color: #ff7138;
+  font-size: 1.5vw;
+  font-weight: 300;
+  padding-top: 2vh;
+  padding-left: 6vw;
+  padding-right: 8vw;
+}
+
+.building {
+  height: 90vh;
+  width: 40vw;
+  position: relative;
+  bottom: 50vh;
+  left: 5vw;
+  z-index: 50px;
+}
+
+.textarea {
+  /* background-color: red; */
+  height: 55vh;
+  width: 39vw;
+  position: relative;
+  left: 56vw;
+  bottom: 133vh;
+}
+
+.maintext {
+  color: rgb(0, 0, 0);
+  font-size: 3.9vw;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.subheading {
+  color: #cb77ff;
+  font-size: 1.3vw;
+  font-weight: 500;
+}
+
+.cards {
+  position: relative;
+  bottom: 120vh;
+  display: flex;
+  margin-left: 28vw;
+  gap: 3vw;
+}
+
+.card1 {
+  background-color: #f8b63c;
+  height: 40vh;
+  width: 20vw;
+  padding-top: 20vh;
+  padding-left: 2vw;
+}
+
+.card1 .no {
+  color: #ff7138;
+  font-size: 2vw;
+  font-weight: 600;
+}
+.card1 .disc {
+  color: black;
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+.page4 {
+  position: relative;
+  bottom: 95vh;
+  padding-left: 5vw;
+}
+
+.page4text h1 {
+  font-size: 3.7vw;
+  width: 50vw;
+  font-weight: 600;
+  margin-bottom: 8vh;
+}
+.subtext {
+  display: flex;
+}
+
+.subtext p {
+  font-size: 1.6vw;
+  font-weight: 600;
+}
+
+.subtext .arrow {
+  /* display: flex; */
+  position: relative;
+  top: 0.8vh;
+  left: 4vw;
+  font-size: 2vw;
+}
+
+.image4 {
+  position: absolute;
+}
+
+.image4 .img {
+  position: relative;
+  left: 53vw;
+  bottom: 47vh;
+  width: 36vw;
+  height: 90vh;
+  z-index: 40%;
+}
+
+.image5 {
+  position: absolute;
+}
+
+.image5 .img5 {
+  position: relative;
+  top: 17vh;
+  height: 70vh;
+}
+
+.subsub {
+  position: absolute;
+}
+
+.subsub h1 {
+  position: relative;
+  top: 49vh;
+  left: 53vw;
+  font-size: 2vw;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.subsub p {
+  position: relative;
+  top: 49vh;
+  left: 53vw;
+  width: 36vw;
+  height: 30px;
+  font-size: 1.3vw;
+  font-weight: 300;
+  color: rgb(157, 190, 219);
+}
+
+.page5text h1 {
+  position: relative;
+  left: 5vw;
+  font-size: 2vw;
+  font-weight: 600;
+  margin-bottom: 3vh;
+}
+.page5text p {
+  position: relative;
+  left: 5vw;
+  font-size: 1.2vw;
+  font-weight: 400;
+  width: 37vw;
+  color: #9dbedb;
+}
+
+.img7 {
+  position: relative;
+  left: 60vw;
+  bottom: 19vw;
+  height: 47vh;
+  width: 33vw;
+}
+
+.textarea5 {
+  position: absolute;
+}
+
+.textarea5 h1 {
+  position: relative;
+  bottom: 29vh;
+  left: 60vw;
+  font-size: 2vw;
+  font-weight: 600;
+}
+.textarea5 p {
+  position: relative;
+  bottom: 29vh;
+  left: 60vw;
+  font-size: 1.2vw;
+  font-weight: 400;
+  color: #9dbedb;
+  height: 30vh;
+  width: 31vw;
+}
+
+.page6 h1 {
+  font-weight: 700;
+  font-size: 3.5vw;
+  position: relative;
+  left: 5vw;
+  width: 52vw;
+}
+
+.mainbox {
+  display: flex;
+  margin-top: 16vh;
+  margin-left: 5vw;
+  gap: 25vw;
+}
+
+.mainbox .box {
+  background-color: #f8b63c;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  align-items: center;
+  height: 8vh;
+  width: 5vw;
+}
+
+.maintextbox{
+  display: flex;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  gap: 2vw;
+}
+
+.maintextbox .subtextboxheading h3{
+  font-size: 1.5vw;
+  font-weight: 600;
+  margin-top: 1vh;
+}
+
+.maintextbox .subtextboxheading p{
+  font-size: 1vw;
+  color: #9dbedb;
+  width: 28vw;
+  margin-top: 2vh;
+}
+
+.page7{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25vw;
+  position: relative;
+  top: 15vh;
+}
+
+.page7 h1{
+  font-size: 5vw;
+  }
+
+.page7 .conceptpara p{
+  width: 40vw;
+  font-weight: 400;
+}
+
+
+footer{
+  background-color: #e6e6e6;
+  display: flex;
+  margin-top: 30vh;
+  gap: 6vw;
+}
+
+.list{
+  padding-top: 15vh;
+  margin-left: 5vw;
+}
+
+.list h1{
+  font-size: 1.9vw;
+  font-weight: 600;
+  margin-bottom: 1vw;
+}
+
+.sublist{
+  list-style-type: none;
+  
+  
+}
+
+.sublist li{
+  color: #75838e;
+  font-size: 1vw;
+  font-weight: 600;
+  margin-bottom: 1.4vh;
+}
