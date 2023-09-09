@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       session_start();     
       $_SESSION['loggedin']=true;
       $_SESSION['username']=$username;
-      header("location: index.php");
+      header("location: index.html");
     }
     else {
       $showError="Invalid Credentials";
