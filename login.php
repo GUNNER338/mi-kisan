@@ -2,7 +2,7 @@
 $login=false;
 $showError=false;
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    include 'partials/_dbconnect.php';
+    include '_dbconnect.php';
     $username=$_POST["username"];
     $password=$_POST["password"];
     $sql="Select * from users where username='$username' AND password='$password'";
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
   <body>
-    <?php require 'partials/_nav.php'?>
+    <?php require '_nav.php'?>
 
     <?php
     if($login){
